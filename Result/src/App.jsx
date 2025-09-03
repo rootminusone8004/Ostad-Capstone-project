@@ -39,7 +39,7 @@ const ResultChecker = () => {
   const [result, setResult] = useState(null);
 // ******************************Change color**********************************************
 
-  const [theme, setTheme] = useState(themes[2]); //Dev use 0, stage use 1,production use 2
+  const [theme, setTheme] = useState(themes[0]); //Dev use 0, stage use 1,production use 2
 
   // ******************************Change color**********************************************
   const fetchResult = async (id) => {
