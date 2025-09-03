@@ -1,0 +1,25 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+*.tfplan
+
+# Environments
+.env
+env
+*.bak
+
+# Local directories
+.terraform/
+.terraform.lock.hcl
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
